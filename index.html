@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Website Builder</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<div class="builder-menu row bg-dark container-fluid">
+  <div class="menu-title col-6">
+   <a href="http://www.cartapp.phpnet.us/"><img src="icon.png" alt="icon.png" width="50" height="50"> </a>
+  Bir bileşen ekledikten sonra içindeki metni düzenleyebilirsiniz.
+  </div>
+    <div class="menu-section col-6">
+  <button type="button" class="btn btn-dark"><span class="material-icons">download</span>İndir</button>
+  <button type="button" class="btn btn-danger btn-sm remove-button"><span class="material-icons">undo</span>Geri Aktar</button>
+
+  <button type="button" class="btn btn-info btn-sm export-button"><span class="material-icons">qr_code</span>Sunucuya Aktar</button>
+    <button type="button" class="btn btn-info btn-sm import-button"><span class="material-icons">input</span>Kod Ekle</button>    
+   </div>
+</div>
+<div class="builder-container row">
+  <div class="sidebar col-2 bg-light">
+    <div class="sidebar-header">
+      <div class="preview-instructons">Bir obje ekleyin</div>
+    </div>
+  </div>
+  <div class="preview-container container-fluid">
+    <div class="preview">
+      <div class="preview-instructons"><br>Önizleme burada görünecektir. Bileşenlerin içindeki metni düzenleyebilirsiniz.</div>
+    </div>
+    <div class="preview-end"></div>
+  </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script  src="script.js"></script>
+</body>
+</html>
